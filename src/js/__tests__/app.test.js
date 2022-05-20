@@ -12,7 +12,5 @@ test('should return obj', () => {
     },
   };
 
-  return GameSavingLoader.load().then((result) =>
-    expect(result).toEqual(expected)
-  );
+  return GameSavingLoader.load().then((result) => expect(result).toEqual(expected));
 });
